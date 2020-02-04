@@ -14,7 +14,7 @@ const sass = require("gulp-sass");
 const uglify = require("gulp-uglify");
 
 // Load package.json for banner
-const pkg = require('../../../Downloads/startbootstrap-clean-blog-gh-pages/package.json');
+const pkg = require('../../../Downloads/startbootstrap-creative-gh-pages/package.json');
 
 // Set the banner content
 const banner = ['/*!\n',
@@ -49,22 +49,28 @@ function clean() {
 
 // Bring third party dependencies from node_modules into vendor directory
 function modules() {
-  // Bootstrap
-  var bootstrap = gulp.src('./node_modules/bootstrap/dist/**/*')
-    .pipe(gulp.dest('./vendor/bootstrap'));
+  // Bootstrap JS
+  var bootstrap = gulp.src('./node_modules/bootstrap/dist/js/**/*')
+    .pipe(gulp.dest('./vendor/bootstrap/js'));
   // Font Awesome CSS
   var fontAwesomeCSS = gulp.src('./node_modules/@fortawesome/fontawesome-free/css/**/*')
     .pipe(gulp.dest('./vendor/fontawesome-free/css'));
   // Font Awesome Webfonts
   var fontAwesomeWebfonts = gulp.src('./node_modules/@fortawesome/fontawesome-free/webfonts/**/*')
     .pipe(gulp.dest('./vendor/fontawesome-free/webfonts'));
+  // jQuery Easing
+  var jqueryEasing = gulp.src('./node_modules/jquery.easing/*.js')
+    .pipe(gulp.dest('./vendor/jquery-easing'));
+  // Magnific Popup
+  var magnificPopup = gulp.src('./node_modules/magnific-popup/dist/*')
+    .pipe(gulp.dest('./vendor/magnific-popup'));
   // jQuery
   var jquery = gulp.src([
       './node_modules/jquery/dist/*',
       '!./node_modules/jquery/dist/core.js'
     ])
     .pipe(gulp.dest('./vendor/jquery'));
-  return merge(bootstrap, fontAwesomeCSS, fontAwesomeWebfonts, jquery);
+  return merge(bootstrap, fontAwesomeCSS, fontAwesomeWebfonts, jquery, jqueryEasing, magnificPopup);
 }
 
 // CSS task
@@ -97,9 +103,7 @@ function js() {
   return gulp
     .src([
       './js/*.js',
-      '!./js/*.min.js',
-      '!./js/contact_me.js',
-      '!./js/jqBootstrapValidation.js'
+      '!./js/*.min.js'
     ])
     .pipe(uglify())
     .pipe(header(banner, {

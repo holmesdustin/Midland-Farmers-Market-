@@ -17,18 +17,6 @@ app.get('/', function(req, res){
     res.render('index', {});
 });
 
-app.get('/about', function(req, res){
-    res.render('about', {});
-});
-
-app.get('/post', function(req, res){
-    res.render('post', {});
-});
-
-app.get('/contact', function(req, res){
-    res.render('contact', {});
-});
-
 http.createServer(app).listen(port, function(){
 
 });
