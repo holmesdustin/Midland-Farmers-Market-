@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YujingGao96/node-practice.git"
+    "url": "git+https://github.com/holmesdustin/Midland-Farmers-Market-.git"
   },
-  "author": "Yujing Gao",
+  "author": "Team Gao",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YujingGao96/node-practice/issues"
+    "url": "https://github.com/holmesdustin/Midland-Farmers-Market-/issues"
   },
-  "homepage": "https://github.com/YujingGao96/node-practice#readme",
+  "homepage": "https://github.com/holmesdustin/Midland-Farmers-Market-#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.0.1",
