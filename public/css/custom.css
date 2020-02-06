@@ -5,3 +5,10 @@
 .about-us-links {
     color: white;
 }
+
+.navLogo {
+float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
