@@ -7,5 +7,9 @@
 }
 
 .nav-logo{
-    background-image: url("../img/navLogo.png");
+    background-image: url(../img/navLogo.png);
+    padding-left: 60px;
+    font-size: medium;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
