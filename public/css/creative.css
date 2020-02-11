@@ -6205,7 +6205,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #e13026 !important;
+  background-color: #f4623a !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9609,11 +9609,11 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #e13026;
+  color: #f4623a;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #e13026 !important;
+  color: #f4623a !important;
 }
 
 @media (min-width: 992px) {
