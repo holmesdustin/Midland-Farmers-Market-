@@ -27,3 +27,11 @@
   background-color: #f54940;
   border-color: #f54940;
 }
+
+hr.divider {
+    border-color: #f54940!important;
+}
+
+.text-primary {
+    color: #f54940!important;
+}
