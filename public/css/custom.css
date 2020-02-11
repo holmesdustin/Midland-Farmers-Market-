@@ -33,5 +33,9 @@ hr.divider {
 }
 
 .text-primary {
-    color: #f54940;
+    color: #f54940!important;
+}
+
+hr.light {
+    border-color: #fff!important;
 }
