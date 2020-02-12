@@ -7,6 +7,10 @@ a {
 }
 
 .about-us-links {
+    color: #ffe6e6;
+}
+
+.about-us-links:hover{
     color: white;
 }
 
