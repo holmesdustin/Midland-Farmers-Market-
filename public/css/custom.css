@@ -22,6 +22,10 @@
   color: #f54940 !important;
 }
 
+#mainNav .navbar-nav .nav-item .nav-link.active {
+  color: #f54940 !important;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #f54940;
@@ -38,4 +42,8 @@ hr.divider {
 
 hr.light {
     border-color: #fff!important;
+}
+
+a.dblock {
+    color: #f54940!important;
 }
