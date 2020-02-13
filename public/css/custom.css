@@ -53,9 +53,12 @@ hr.light {
     border-color: #fff!important;
 }
 
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  background-color: #f54339!important;
+#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
+  color: #f54339!important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+  color: #f54339!important;
 }
 
 .text-white-50 {
