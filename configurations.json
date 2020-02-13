@@ -1,15 +1,39 @@
 {
-  "navLogoTextLine1": "Midland Community",
-  "navLogoTextLine2": "Farmers Market",
+  "navLogoText": "Midland Community<br>Farmers Market",
   "homeHeader": "Midland Community Farmers Market",
   "homeDate": "Every Saturday (May through October) from 9:00 am until noon.",
-
-
+  "homeButtonText": "Find Out More",
   "aboutUsTitle": "Who Are We?",
-  "aboutUsBody": "The Midland Community Farmers Market is operated as a non-profit function of the Mens Club of Midland United Methodist Church, and is offered as a service to the people of the Midland area of Georgia Muscogee and Harris Counties. All vendor fees go to support the clubs local outreach ministries, including the ",
-  "aboutUsButtonText": "Find Out More",
-
-
+  "aboutUsBodyStarting": "The Midland Community Farmers Market</b> is operated as a non-profit function of the Mens' Club of <a class=\"about-us-links\" href=\"http://www.midlandumc.com/\">Midland United Methodist Church</a>, and is offered as a service to the people of the Midland area of Georgia's Muscogee and Harris Counties. All vendor fees go to support the club's local outreach ministries, including ",
+  "charitiesAndLink": [
+    {
+      "charityName": "House of Heroes",
+      "charityLink": "https://houseofheroescvc.org/",
+      "additionText": ""
+    },
+    {
+      "charityName": "Camp Dream",
+      "charityLink": "http://campdreamga.org/",
+      "additionText": ""
+    },
+    {
+      "charityName": "Ronald McDonald House",
+      "charityLink": "http://www.rmhcwga.org/",
+      "additionText": " of Columbus"
+    },
+    {
+      "charityName": "Valley Rescue",
+      "charityLink": "https://www.valleyrescuemission.org/",
+      "additionText": ""
+    },
+    {
+      "charityName": "Carpenter's Way",
+      "charityLink": "https://www.themethodisthome.org/residential-care/carpenters-way-ranch-columbus/",
+      "additionText": ""
+    }
+  ],
+  "aboutUsBodyEnding": ". Come on out and have a good time while supporting your community. SEE YOU THERE!",
+  "aboutUsButtonText": "Get Started!",
   "Bring-your-stuff": "Bring Your Stuff",
   "Locally-grown-Items": "Locally-grown Items",
   "Locally-grown-sub-text": "Organic Vegetables, Farm-fresh Eggs, and Goat Dairy Items.",

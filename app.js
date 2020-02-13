@@ -19,13 +19,8 @@ app.get('/', function(req, res){
 
 function parseJson(){
     const fs = require("fs");
-// Get content from file
     const contents = fs.readFileSync("configurations.json");
-// Define to JSON type
-    const jsonContent = JSON.parse(contents);
-// Get Value from JSON
-    console.log("test", jsonContent.navLogoText);
-    return jsonContent;
+    return JSON.parse(contents);
 }
 
 http.createServer(app).listen(port, function(){
