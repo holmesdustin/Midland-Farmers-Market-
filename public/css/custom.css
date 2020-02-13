@@ -57,3 +57,7 @@ hr.light {
 .nav-pills .show > .nav-link {
   background-color: #f54339!important;
 }
+
+.text-white-50 {
+  color: #EAEAEA !important;
+}
