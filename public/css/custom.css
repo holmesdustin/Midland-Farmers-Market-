@@ -53,3 +53,7 @@ hr.light {
     border-color: #fff!important;
 }
 
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #f54339!important;
+}
