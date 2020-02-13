@@ -171,22 +171,97 @@
 <section class="page-section bg-dark text-white">
     <div class="container text-center">
         <h2 class="mb-4">Join Us Right Now</h2>
-        <a class="btn btn-light btn-xl" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Be A Vendor!</a>
+        <h3 class="mb-4">You're reserving a spot for:</h3>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Regular Saturday
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h4 class="my-4 text-dark">Main Field</h4>
+                                <img class="img-fluid rounded-lg" src="img/market-spaces/Spaces - Main Field.jpg" alt="Main Field">
+                            </div>
+                            <div class="col-lg-6 my-auto px-4">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="inputFirstName" class="text-primary">First Name</label>
+                                        <input type="text" class="form-control" id="inputFirstName">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputLastName" class="text-primary">Last Name</label>
+                                        <input type="text" class="form-control" id="inputLastName">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputSpot" class="text-primary">Reserving for</label>
+                                        <select id="inputSpot" class="form-control">
+                                            <option selected>Spot #1</option>
+                                            <option>Spot #2</option>
+                                            <option>Spot #3</option>
+                                            <option>Spot #4</option>
+                                            <option>Spot #5</option>
+                                            <option>Spot #6</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label text-primary" for="gridCheck">
+                                                I understand the agreement
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Pay with PayPal</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Spring Fling
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="row">
+                            <h2 class="col-12">Spring Fling</h2>
+                            <div class="col-lg-6">
+                                <h4 class="my-4">Main Field</h4>
+                                <img class="img-fluid rounded-lg" src="img/market-spaces/Spaces - Main Field.jpg" alt="Main Field">
+                            </div>
+                            <div class="col-lg-6">
+                                <h4 class="my-4">Fellowship Hall</h4>
+                                <img class="img-fluid rounded-lg" src="img/market-spaces/Spaces - Fellowship Hall.jpg" alt="Fellowship Hall">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <!-- Be a Vendor block -->
-    <div class="container text-center collapse" id="collapseExample">
-        <div class="row">
-            <div class="col-lg-6">
-                <h4 class="my-4">Main Field</h4>
-                <img class="img-fluid rounded-lg" src="img/market-spaces/Spaces - Main Field.jpg" alt="Main Field">
-            </div>
-            <div class="col-lg-6">
-                <h4 class="my-4">Fellowship Hall</h4>
-                <img class="img-fluid rounded-lg" src="img/market-spaces/Spaces - Fellowship Hall.jpg" alt="Fellowship Hall">
-            </div>
-        </div>
+    <div class="container text-center collapse" id="regular-saturday">
+
     </div>
+
+    <div class="container text-center collapse" id="spring-fling">
+
+    </div>
+
 </section>
 
 <!-- Contact Section -->

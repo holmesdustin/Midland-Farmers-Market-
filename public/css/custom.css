@@ -17,36 +17,36 @@ a {
 
 .nav-logo{
     background-image: url(../img/navLogo.png);
-    padding-left: 60px;
+    padding-left: 70px;
     font-size: medium;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .bg-primary {
-    background-color: #f54940!important;
+    background-color: #f54339 !important;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f54940 !important;
+  color: #f54339 !important;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f54940 !important;
+  color: #f54339 !important;
 }
 
 .btn-primary {
   color: #fff;
-  background-color: #f54940;
-  border-color: #f54940;
+  background-color: #f54339;
+  border-color: #f54339;
 }
 
 hr.divider {
-    border-color: #f54940!important;
+    border-color: #f54339!important;
 }
 
 .text-primary {
-    color: #f54940!important;
+    color: #f54339!important;
 }
 
 hr.light {
