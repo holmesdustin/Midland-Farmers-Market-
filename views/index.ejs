@@ -48,7 +48,7 @@
                     <a class="nav-link js-scroll-trigger" href="#bring-your-stuff">Bring Your Stuff</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" id="gallery-nav" href="#gallery">Gallery</a>
+                    <a class="nav-link js-scroll-trigger" id="gallery-nav" href="#be-a-vendor">Be A Vendor</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#questions">FAQs</a>
@@ -76,7 +76,7 @@
                         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about"><%= homeButtonText %></a>
                     </div>
                     <div class="col-6">
-                        <a class="btn btn-dark btn-xl js-scroll-trigger" href="#be-a-vendor"><%= vendorButtonText %></a>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#be-a-vendor"><%= vendorButtonText %></a>
                     </div>
                 </div>
             </div>
@@ -149,11 +149,12 @@
 </section>
 
 <!-- Portfolio Section -->
+<div class="inactiveLink">
 <section id="gallery">
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+                <a class="portfolio-box"  href="img/portfolio/fullsize/1.jpg">
                     <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
                 </a>
             </div>
@@ -185,6 +186,7 @@
         </div>
     </div>
 </section>
+</div>
 
 <!-- Call to Action Section -->
 <section class="page-section bg-dark text-white" id="be-a-vendor">
@@ -252,8 +254,8 @@
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox" id="gridCheck">
                                             <label class="form-check-label text-primary" for="gridCheck">
-                                                I understand the agreement
-                                            </label>
+                                                I understand the </label>
+                                                <a href="#" title="" class="sign-agreement">agreement</a>   
                                         </div>
                                     </div>
                                     <button type="submit" class="btn btn-primary">Pay with PayPal</button>
@@ -331,10 +333,13 @@
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox" id="gridCheck">
                                             <label class="form-check-label text-primary" for="gridCheck">
-                                                I understand the agreement
-                                            </label>
+                                                I understand the </label>
+                                                <a href="#" title="">agreement</a>
+                                            
                                         </div>
                                     </div>
+                                    
+                                    
                                     <button type="submit" class="btn btn-primary">Pay with PayPal</button>
                                 </form>
                             </div>
