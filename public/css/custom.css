@@ -68,5 +68,9 @@ hr.light {
     }
 }
 
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
 
 
