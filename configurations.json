@@ -2,7 +2,8 @@
   "navLogoText": "Midland Community<br>Farmers Market",
   "homeHeader": "Midland Community Farmers Market",
   "homeDate": "Every Saturday (May through October) from 9:00 am until noon.",
-  "homeButtonText": "Find Out More",
+  "homeButtonText": " Find Out More ",
+  "venderButtonText": "Become A Vender",
   "aboutUsTitle": "Who Are We?",
   "aboutUsBodyStarting": "The Midland Community Farmers Market</b> is operated as a non-profit function of the Mens' Club of <a class=\"about-us-links\" href=\"http://www.midlandumc.com/\">Midland United Methodist Church</a>, and is offered as a service to the people of the Midland area of Georgia's Muscogee and Harris Counties. All vendor fees go to support the club's local outreach ministries, including ",
   "charitiesAndLink": [
@@ -44,8 +45,9 @@
   "Yard": "Yard and garden plants",
   "Yard-sub-text": "Flowers, Bonsai, and So Much More...",
   "Address": "9110 Warm Springs Road Midland, Georgia 31820",
-  "fromColumbus": "Head east on Manchester Expressway (north GA-85 / US-27 Alt.) Take the County Line Road exit, and turn left across the bridge. Go a quarter mile and turn right onto Garrett Road.",
-  "fromWarmSpringsOrWaverlyHall": "Head south on GA-85. Go four miles past Ellerslie, turn right at the County Line Road exit, and right again at Garrett Road.",
-  "email": "larrywcline@yahoo.com",
+  "From-columbus": "Head east on Manchester Expressway (north GA-85 / US-27 Alt.) Take the County Line Road exit, and turn left across the bridge. Go a quarter mile and turn right onto Garrett Road.",
+  "Frowm-warm-springs": "Head south on GA-85. Go four miles past Ellerslie, turn right at the County Line Road exit, and right again at Garrett Road.",
+  "Email": "larrywcline@yahoo.com",
+  "emailLink": "mailto:contact@yourwebsite.com",
   "phone": "+1 (706) 507-0357"
 }
