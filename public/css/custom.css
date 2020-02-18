@@ -62,4 +62,11 @@ hr.light {
   color: #f54339!important;
 }
 
+@media only screen and (max-width: 600px) {
+    #gallery, #gallery-nav {
+        display: none;
+    }
+}
+
+
 
