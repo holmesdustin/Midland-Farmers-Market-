@@ -16,17 +16,14 @@
                 </div>
             </div>
             <div class="col-lg-6 mr-auto col-sm-12">
-                <h4 class="mt-4 ml-2">9110 Warm Springs Road Midland, Georgia 31820</h4>
-                <h5 class="text-muted ml-2">(the corner of Warm Springs and Garrett Roads)</h5>
+                <h4 class="mt-4 ml-2"><%= contact.contactAddress%></h4>
+                <h5 class="text-muted ml-2"><%= contact.contactAddressSub%></h5>
                 <p class="text-muted ml-2">
                     <br>
                     <b>From Columbus:</b><br>
-                    Head east on Manchester Expressway (north GA-85 / US-27 Alt.)
-                    Take the County Line Road exit, and turn left across the bridge.
-                    Go a quarter mile and turn right onto Garrett Road.<br><br>
+                    <%= contact.contactFromColumbus%><br><br>
                     <b>From Warm Springs or Waverly Hall:</b><br>
-                    Head south on GA-85. Go four miles past Ellerslie, turn right at
-                    the County Line Road exit, and right again at Garrett Road.
+                    <%= contact.contactFromWarmSprings%>
                 </p>
 
             </div>
@@ -37,17 +34,17 @@
             </div>
             <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                 <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-                <div>+1 (706) 507-0357</div>
+                <div><%= contact.contactPhone%></div>
             </div>
             <a class="col-lg-4 ml-auto text-center mb-5 mb-lg-0"
                href="https://www.facebook.com/Midland-Community-Farmers-Market-584202175008593/">
                 <i class="fab fa-facebook-square fa-3x mb-3 text-muted"></i>
                 <div>Follow us on Facebook</div>
             </a>
-            <a class="col-lg-4 mr-auto text-center" href="mailto:MidlandCFM@gmail.com">
+            <a class="col-lg-4 mr-auto text-center" href="mailto:<%= contact.contactEmail%>">
                 <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
                 <!-- Make sure to change the email address in anchor text AND the link below! -->
-                <div class="d-block"> MidlandCFM@gmail.com</div>
+                <div class="d-block"><%= contact.contactEmail%></div>
             </a>
 
         </div>

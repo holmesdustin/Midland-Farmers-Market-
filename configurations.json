@@ -45,12 +45,16 @@
   "Handmade-sub-text": "Fine Handicrafts, Handmade Candles and Soaps",
   "Yard": "Yard and garden plants",
   "Yard-sub-text": "Flowers, Bonsai, and So Much More...",
-  "Address": "9110 Warm Springs Road Midland, Georgia 31820",
-  "From-columbus": "Head east on Manchester Expressway (north GA-85 / US-27 Alt.) Take the County Line Road exit, and turn left across the bridge. Go a quarter mile and turn right onto Garrett Road.",
-  "Frowm-warm-springs": "Head south on GA-85. Go four miles past Ellerslie, turn right at the County Line Road exit, and right again at Garrett Road.",
-  "Email": "larrywcline@yahoo.com",
-  "emailLink": "mailto:contact@yourwebsite.com",
-  "phone": "+1 (706) 507-0357",
+
+  "contact": {
+    "contactAddress" : "9110 Warm Springs Road Midland, Georgia 31820",
+    "contactAddressSub" : "(the corner of Warm Springs and Garrett Roads)",
+    "contactFromColumbus": "Head east on Manchester Expressway (north GA-85 / US-27 Alt.) Take the County Line Road exit, and turn left across the bridge. Go a quarter mile and turn right onto Garrett Road.",
+    "contactFromWarmSprings": "Head south on GA-85. Go four miles past Ellerslie, turn right at the County Line Road exit, and right again at Garrett Road.",
+    "contactEmail": "MidlandCFM@gmail.com",
+    "contactPhone": "+1 (706) 507-0357"
+  },
+
   "specialEvent": {
     "specialEventTitle": "Spring Fling"
   }
