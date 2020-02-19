@@ -68,10 +68,9 @@ hr.light {
     }
 }
 
-.inactiveLink {
-   pointer-events: none;
-   cursor: default;
-   user-select: none;
+#special-event{
+    background: rgb(255,81,47);
+    background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(221,36,118,1) 100%);
 }
 
 

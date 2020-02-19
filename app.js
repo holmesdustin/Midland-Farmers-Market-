@@ -13,17 +13,17 @@ app.use(express.static('public')); //Express serves images, CSS files, and JavaS
 app.use(bodyParser.urlencoded({extended: true}));
 
 // New branch testing
-app.get('/', function(req, res){
+app.get('/', function (req, res) {
     res.render('index', parseJson());
 });
 
-function parseJson(){
+function parseJson() {
     const fs = require("fs");
     const contents = fs.readFileSync("configurations.json");
     return JSON.parse(contents);
 }
 
-http.createServer(app).listen(port, function(){
+http.createServer(app).listen(port, function () {
 
 });
 

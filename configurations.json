@@ -1,4 +1,5 @@
 {
+  "specialEventsSwitch": "ON",
   "navLogoText": "Midland Community<br>Farmers Market",
   "homeHeader": "Midland Community Farmers Market",
   "homeDate": "Every Saturday (May through October) from 9:00 am until noon.",
@@ -49,5 +50,8 @@
   "Frowm-warm-springs": "Head south on GA-85. Go four miles past Ellerslie, turn right at the County Line Road exit, and right again at Garrett Road.",
   "Email": "larrywcline@yahoo.com",
   "emailLink": "mailto:contact@yourwebsite.com",
-  "phone": "+1 (706) 507-0357"
+  "phone": "+1 (706) 507-0357",
+  "specialEvent": {
+    "specialEventTitle": "Spring Fling"
+  }
 }
