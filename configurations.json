@@ -35,15 +35,17 @@
   ],
   "aboutUsBodyEnding": ". Come on out and have a good time while supporting your community. SEE YOU THERE!",
   "aboutUsButtonText": "Get Started!",
-  "bringYourStuff": "Bring Your Stuff",
-  "Locally-grown-Items": "Locally-grown Items",
-  "Locally-grown-sub-text": "Organic Vegetables, Farm-fresh Eggs, and Goat Dairy Items.",
-  "Bakery-and-Foods": "Bakery and Foods",
-  "Bakery-sub-text": "Homemade Pickles, Jams and Jellies, Local Honey, and Delicious Baked Goods.",
-  "Handmade-Items": "Handmade Items",
-  "Handmade-sub-text": "Fine Handicrafts, Handmade Candles and Soaps",
-  "Yard": "Yard and garden plants",
-  "Yard-sub-text": "Flowers, Bonsai, and So Much More...",
+  "bringYourStuff" : {
+    "bringYourStuffTitle": "Bring Your Stuff",
+    "item1Title": "Locally-grown Items",
+    "item1SubText": "Organic Vegetables, Farm-fresh Eggs, and Goat Dairy Items.",
+    "item2Title": "Bakery and Foods",
+    "item2SubText": "Homemade Pickles, Jams and Jellies, Local Honey, and Delicious Baked Goods.",
+    "item3Title": "Handmade Items",
+    "item3SubText": "Fine Handicrafts, Handmade Candles and Soaps",
+    "item4Title": "Yard and garden plants",
+    "item4SubText": "Flowers, Bonsai, and So Much More..."
+  },
 
   "contact": {
     "contactAddress" : "9110 Warm Springs Road Midland, Georgia 31820",
