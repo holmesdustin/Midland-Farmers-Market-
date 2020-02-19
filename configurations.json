@@ -1,5 +1,4 @@
 {
-  "specialEventsSwitch": "ON",
   "navLogoText": "Midland Community<br>Farmers Market",
   "homeHeader": "Midland Community Farmers Market",
   "homeDate": "Every Saturday (May through October) from 9:00 am until noon.",
@@ -56,6 +55,9 @@
   },
 
   "specialEvent": {
+    "specialEventSwitch": "ON",
     "specialEventTitle": "Spring Fling"
-  }
+  },
+
+  "footerText": "Copyright &copy; 2020 - Midland Community Farmers Market"
 }
