@@ -63,7 +63,7 @@ hr.light {
 }
 
 @media only screen and (max-width: 600px) {
-    #gallery, #gallery-nav {
+    #gallery{
         display: none;
     }
 }
