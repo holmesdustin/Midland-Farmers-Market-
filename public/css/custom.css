@@ -2,7 +2,7 @@ a {
     color: #f54940;
 }
 
-#googleMapFrame {
+#googleMapFrame, .map-rounded {
     border-radius: 8px;
 }
 
@@ -76,5 +76,6 @@ hr.light {
     font-size: 120%;
     line-height: 180%;
 }
+
 
 

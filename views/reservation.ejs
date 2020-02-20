@@ -3,59 +3,73 @@
     <div class="container text-center">
         <h1 class="mb-4">Reservation</h1>
         <hr class="divider my-4">
-        <div class="card-body">
-            <div class="row">
-                <div class="col-lg-6">
-                    <img class="img-fluid rounded-lg" src="img/market-spaces/Spaces - Main Field.jpg"
-                         alt="Main Field">
+
+        <div class="row my-5">
+            <div class="col-6 text-center">
+                <a class="btn btn-light btn-xl reservation-btn" data-toggle="collapse" href="#multiCollapseExample1" role="button"
+                   aria-expanded="false" aria-controls="multiCollapseExample1">Weekly Market</a>
+            </div>
+            <div class="col-6 text-center">
+                <a class="btn btn-light btn-xl reservation-btn" data-toggle="collapse" href="#multiCollapseExample2" role="button"
+                   aria-expanded="false" aria-controls="multiCollapseExample2">Spring Fling</a>
+            </div>
+        </div>
+        <div id="reservation-box">
+            <div class="collapse multi-collapse" id="multiCollapseExample1" data-parent="#reservation-box">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="img-fluid map-rounded" src="img/market-spaces/Spaces - Main Field.jpg"
+                             alt="Main Field">
+                    </div>
+                    <div class="col-lg-6 my-auto px-4 pt-4">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-6">
+                                    <label for="inputFirstName" class="text-primary">First Name</label>
+                                    <input type="text" class="form-control" id="inputFirstName">
+                                </div>
+                                <div class="form-group col-6">
+                                    <label for="inputLastName" class="text-primary">Last Name</label>
+                                    <input type="text" class="form-control" id="inputLastName">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail" class="text-primary">Email</label>
+                                <input type="text" class="form-control" id="inputEmail">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-4">
+                                    <label for="inputPhone" class="text-primary">Phone</label>
+                                    <input type="text" class="form-control" id="inputPhone">
+                                </div>
+                                <div class="form-group col-8">
+                                    <label for="inputSell" class="text-primary">Selling Items</label>
+                                    <input type="text" class="form-control" id="inputSell">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputSpot" class="text-primary">Choose A Spot</label>
+                                <select id="inputSpot" class="form-control">
+                                    <option selected>Spot #2</option>
+                                    <option>Spot #3</option>
+                                    <option>Spot #4</option>
+                                    <option>Spot #5</option>
+                                    <option>Spot #6</option>
+                                    <option>Spot #7</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-xl mt-3">Reserve Right Now</button>
+                        </form>
+                    </div>
                 </div>
-                <div class="col-lg-6 my-auto px-4">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-6">
-                                <label for="inputFirstName" class="text-primary">First Name</label>
-                                <input type="text" class="form-control" id="inputFirstName">
-                            </div>
-                            <div class="form-group col-6">
-                                <label for="inputLastName" class="text-primary">Last Name</label>
-                                <input type="text" class="form-control" id="inputLastName">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="inputEmail" class="text-primary">Email</label>
-                            <input type="text" class="form-control" id="inputEmail">
-                        </div>
-                        <div class="form-group">
-                            <label for="inputPhone" class="text-primary">Phone</label>
-                            <input type="text" class="form-control" id="inputPhone">
-                        </div>
-                        <div class="form-group">
-                            <label for="inputSell" class="text-primary">What To Sell</label>
-                            <input type="text" class="form-control" id="inputSell">
-                        </div>
-                        <div class="form-group">
-                            <label for="inputSpot" class="text-primary">Choose A Spot</label>
-                            <select id="inputSpot" class="form-control">
-                                <option selected>Spot #2</option>
-                                <option>Spot #3</option>
-                                <option>Spot #4</option>
-                                <option>Spot #5</option>
-                                <option>Spot #6</option>
-                                <option>Spot #7</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label text-primary" for="gridCheck">
-                                    I understand the </label>
-                                <a href="#" title="" class="sign-agreement">agreement</a>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Pay with PayPal</button>
-                    </form>
+            </div>
+            <div class="collapse multi-collapse" id="multiCollapseExample2" data-parent="#reservation-box">
+                <div class="card card-body text-muted">
+                    Under Construction
                 </div>
             </div>
         </div>
+
+
     </div>
 </section>
