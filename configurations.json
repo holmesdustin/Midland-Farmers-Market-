@@ -2,8 +2,8 @@
   "navLogoText": "Midland Community<br>Farmers Market",
   "homeHeader": "Midland Community Farmers Market",
   "homeDate": "Every Saturday (May through October) from 9:00 am until noon.",
-  "homeButtonText": " Find Out More ",
-  "vendorButtonText": "  Be A Vendor  ",
+  "homeButtonText":   "Find Out More Info",
+  "vendorButtonText": "Make A Reservation",
   "aboutUsTitle": "Who Are We?",
   "aboutUsBodyStarting": "The Midland Community Farmers Market</b> is operated as a non-profit function of the Mens' Club of <a class=\"about-us-links\" href=\"http://www.midlandumc.com/\">Midland United Methodist Church</a>, and is offered as a service to the people of the Midland area of Georgia's Muscogee and Harris Counties. All vendor fees go to support the club's local outreach ministries, including ",
   "charitiesAndLink": [
@@ -35,7 +35,7 @@
   ],
   "aboutUsBodyEnding": ". Come on out and have a good time while supporting your community. SEE YOU THERE!",
   "aboutUsButtonText": "Get Started!",
-  "bringYourStuff" : {
+  "bringYourStuff": {
     "bringYourStuffTitle": "Bring Your Stuff",
     "item1Title": "Locally-grown Items",
     "item1SubText": "Organic Vegetables, Farm-fresh Eggs, and Goat Dairy Items.",
@@ -46,20 +46,17 @@
     "item4Title": "Yard and garden plants",
     "item4SubText": "Flowers, Bonsai, and So Much More..."
   },
-
   "contact": {
-    "contactAddress" : "9110 Warm Springs Road Midland, Georgia 31820",
-    "contactAddressSub" : "(the corner of Warm Springs and Garrett Roads)",
+    "contactAddress": "9110 Warm Springs Road Midland, Georgia 31820",
+    "contactAddressSub": "(the corner of Warm Springs and Garrett Roads)",
     "contactFromColumbus": "Head east on Manchester Expressway (north GA-85 / US-27 Alt.) Take the County Line Road exit, and turn left across the bridge. Go a quarter mile and turn right onto Garrett Road.",
     "contactFromWarmSprings": "Head south on GA-85. Go four miles past Ellerslie, turn right at the County Line Road exit, and right again at Garrett Road.",
     "contactEmail": "MidlandCFM@gmail.com",
     "contactPhone": "+1 (706) 507-0357"
   },
-
   "specialEvent": {
     "specialEventSwitch": "ON",
     "specialEventTitle": "Spring Fling"
   },
-
   "footerText": "Copyright &copy; 2020 - Midland Community Farmers Market"
 }
