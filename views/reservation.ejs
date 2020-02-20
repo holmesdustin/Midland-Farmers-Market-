@@ -61,17 +61,22 @@
                                 </select>
                             </div>
                             <button type="button" class="btn btn-primary btn-xl mt-3" data-toggle="modal"
-                                    data-target="#exampleModalLong">Reserve Right Now
+                                    data-target="#exampleModalLong" id="reserve-button">Reserve Right Now
                             </button>
 
-
+                            <p class="my-3 col-12" id="agreement-message"><i class="far fa-check-circle"></i>&nbsp;&nbsp;You've
+                                agreed our term of services</p>
+                            <button type="button" class="btn btn-primary btn-xl mt-3" data-toggle="modal"
+                                    data-target="#exampleModalLong" id="pay-button">Pay With PayPal
+                            </button>
                             <!-- Modal -->
                             <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
                                  aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                            <h5 class="modal-title text-dark" id="exampleModalLongTitle">Term of
+                                                Services</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
@@ -141,7 +146,9 @@
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close
                                             </button>
-                                            <button type="button" class="btn btn-primary">I Agree</button>
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal"
+                                                    onclick="agreeTermOfService()">I Agree
+                                            </button>
                                         </div>
                                     </div>
                                 </div>

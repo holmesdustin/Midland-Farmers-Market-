@@ -77,5 +77,8 @@ hr.light {
     line-height: 180%;
 }
 
+#pay-button, #agreement-message{
+    display: none;
+}
 
 
