@@ -15,11 +15,11 @@
 
 <%- include('gallery', {}); %>
 
-<%- include('reservation', {}); %>
-
 <% if (specialEvent.specialEventSwitch === "ON") { %>
-<%- include('special-event', {}); %>
+    <%- include('special-event', {}); %>
 <% } %>
+
+<%- include('reservation', {}); %>
 
 <%- include('faq', {}); %>
 
