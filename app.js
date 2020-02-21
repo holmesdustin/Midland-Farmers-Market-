@@ -17,6 +17,10 @@ app.get('/', function (req, res) {
     res.render('index', parseJson());
 });
 
+app.post("/", function (req, res) {
+    res.render('payment-success', parseJson());
+});
+
 function parseJson() {
     const fs = require("fs");
     const contents = fs.readFileSync("configurations.json");
