@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('public')); //Express serves images, CSS files, and JavaScript files in a directory named public
 app.use(bodyParser.urlencoded({extended: true}));
 
-// New branch testing
+// Root GET URL takes the configuration file and render the index.ejs file
 app.get('/', function (req, res) {
     res.render('index', parseJson());
 });
