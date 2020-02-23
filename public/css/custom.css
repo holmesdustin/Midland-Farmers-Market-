@@ -2,13 +2,13 @@ a {
     color: #f54940;
 }
 
-#googleMapFrame, .map-rounded {
+#googleMapFrame, .map-rounded {page-section bg-primary
     border-radius: 8px;
 }
 
 .about-us-links,.about-us-links:hover{
     color: white;
-    text-shadow: 2px 2px #242424;
+    font-style: italic;
 }
 
 .nav-logo {
