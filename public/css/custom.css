@@ -2,7 +2,7 @@ a {
     color: #f54940;
 }
 
-#googleMapFrame, .map-rounded {page-section bg-primary
+#googleMapFrame, .map-rounded {
     border-radius: 8px;
 }
 

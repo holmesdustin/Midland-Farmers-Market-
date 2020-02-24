@@ -24,34 +24,34 @@
                              alt="Main Field">
                     </div>
                     <div class="col-lg-6 my-auto px-4 pt-4">
-                        <form method="post">
+                        <form method="post" action="/">
                             <div class="form-row">
                                 <div class="form-group col-6">
                                     <label for="inputFirstName" class="text-white">First Name</label>
-                                    <input type="text" class="form-control" id="inputFirstName">
+                                    <input type="text" class="form-control" id="inputFirstName" name="firstName">
                                 </div>
                                 <div class="form-group col-6">
                                     <label for="inputLastName" class="text-white">Last Name</label>
-                                    <input type="text" class="form-control" id="inputLastName">
+                                    <input type="text" class="form-control" id="inputLastName" name="lastName">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="inputEmail" class="text-white">Email</label>
-                                <input type="text" class="form-control" id="inputEmail">
+                                <input type="text" class="form-control" id="inputEmail" name="email">
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-4">
                                     <label for="inputPhone" class="text-white">Phone</label>
-                                    <input type="text" class="form-control" id="inputPhone">
+                                    <input type="text" class="form-control" id="inputPhone" name="phone">
                                 </div>
                                 <div class="form-group col-8">
                                     <label for="inputSell" class="text-white">Selling Items</label>
-                                    <input type="text" class="form-control" id="inputSell">
+                                    <input type="text" class="form-control" id="inputSell" name="selling">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="inputSpot" class="text-white">Choose A Spot</label>
-                                <select id="inputSpot" class="form-control">
+                                <select id="inputSpot" class="form-control" name="spot">
                                     <option selected>Spot #2</option>
                                     <option>Spot #3</option>
                                     <option>Spot #4</option>
@@ -66,7 +66,7 @@
 
                             <p class="my-3 col-12" id="agreement-message"><i class="far fa-check-circle"></i>&nbsp;&nbsp;You've
                                 agreed our term of services</p>
-                            <button type="submit" class="btn btn-primary btn-xl mt-3" id="pay-button">Pay With PayPal
+                            <button type="submit" class="btn btn-primary btn-xl mt-3" id="pay-button" disabled>Pay With PayPal
                             </button>
                             <!-- Modal -->
                             <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
