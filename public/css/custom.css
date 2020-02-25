@@ -2,7 +2,7 @@ a {
     color: #f54940;
 }
 
-#googleMapFrame, .map-rounded {
+#googleMapFrame, .map-rounded {page-section bg-primary
     border-radius: 8px;
 }
 
@@ -70,6 +70,7 @@ hr.light {
 
 #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 110%;
+    opacity: 0.1;
 }
 
 #about {
