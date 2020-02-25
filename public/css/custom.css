@@ -2,11 +2,11 @@ a {
     color: #f54940;
 }
 
-#googleMapFrame, .map-rounded {page-section bg-primary
+#googleMapFrame, .map-rounded {
     border-radius: 8px;
 }
 
-.about-us-links,.about-us-links:hover{
+.about-us-links, .about-us-links:hover {
     color: white;
     font-style: italic;
 }
@@ -78,8 +78,18 @@ hr.light {
     line-height: 180%;
 }
 
-#pay-button, #agreement-message{
+#pay-button, #agreement-message {
     display: none;
 }
+
+@media (min-width: 992px) {
+    #mainNav .navbar-nav .nav-item .nav-link {
+        color: white;
+    }
+    #mainNav .navbar-brand {
+        color: white;
+    }
+}
+
 
 
