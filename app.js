@@ -27,6 +27,7 @@ app.get('/', function (req, res) {
 });
 
 app.post("/", function (req, res) {
+    var fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
     let create_payment_json;
     create_payment_json = {
         "intent": "sale",
@@ -34,8 +35,8 @@ app.post("/", function (req, res) {
             "payment_method": "paypal"
         },
         "redirect_urls": {
-            "return_url": "http://localhost:3000/success",
-            "cancel_url": "http://localhost:3000/cancel"
+            "return_url": fullUrl + "success",
+            "cancel_url": fullUrl + "cancel"
         },
         "transactions": [{
             "item_list": {
