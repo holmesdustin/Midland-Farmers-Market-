@@ -61,8 +61,8 @@ app.post("/", function (req, res) {
         if (error) {
             throw error;
         } else {
-            for (let i = 0; i < payment.links.length; i++){
-                if (payment.links[i].rel === "approval_url"){
+            for (let i = 0; i < payment.links.length; i++) {
+                if (payment.links[i].rel === "approval_url") {
                     res.redirect(payment.links[i].href);
                 }
             }
@@ -77,18 +77,18 @@ app.get('/success', function (req, res) {
 
     const execute_payment_json = {
         "payer_id": payerID,
-        "transactions":[{
-            "amount":{
-                "currency":"USD",
-                "total":"10.00"
+        "transactions": [{
+            "amount": {
+                "currency": "USD",
+                "total": "10.00"
             }
         }]
     };
     paypal.payment.execute(paymentID, execute_payment_json, function (err, payment) {
-        if (err){
+        if (err) {
             console.log(err.response);
             throw err;
-        }else{
+        } else {
             console.log("Get Payment Response");
             console.log(JSON.stringify(payment));
             res.render('payment-success', parseJson());
@@ -96,7 +96,24 @@ app.get('/success', function (req, res) {
     });
 });
 
-app.get('/cancel', (req, res) => res.send('Cancelled'));
+app.get('/cancel', (req, res) => res.render('payment-failed', parseJson()));
+
+app.get('/admin', (req, res) => {
+    let newJSON = parseJson();
+    newJSON.correctPassword = true;
+    res.render('admin', newJSON);
+});
+
+app.post('/admin', (req, res) => {
+    const password = req.body.password;
+    if (password === 'P@ssw0rd') {
+        res.render('dashboard', parseJson());
+    } else {
+        let newJSON = parseJson();
+        newJSON.correctPassword = false;
+        res.render('admin', newJSON);
+    }
+});
 
 function parseJson() {
     const fs = require("fs");
