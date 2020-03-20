@@ -41,10 +41,10 @@ app.post("/", function (req, res) {
         "transactions": [{
             "item_list": {
                 "items": [{
-                    "name": "weekly market",
-                    "sku": "event id",
-                    "price": "10.00",
-                    "currency": "USD",
+                    "name": "weekly market",  //Here goes the event name
+                    "sku": "event id", //Here goes the event ID
+                    "price": "10.00", //Here goes the price
+                    "currency": "USD", //Usually not to be changed
                     "quantity": 1
                 }]
             },
