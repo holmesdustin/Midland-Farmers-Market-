@@ -14,6 +14,33 @@ app.use(express.static('public')); //Express serves images, CSS files, and JavaS
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
+
+var nodemailer = require('nodemailer');
+
+var transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+        user: 'midlandcfmrobot@gmail.com',
+        pass: 'P@ssw0rd.1'
+    }
+});
+
+var mailOptions = {
+    from: 'midlandcfmrobot@gmail.com',
+    to: 'gao.yujing.csu@gmail.com',
+    subject: 'Sending Email using Node.js',
+    text: 'That was easy!'
+};
+
+transporter.sendMail(mailOptions, function(error, info){
+    if (error) {
+        console.log(error);
+    } else {
+        console.log('Email sent: ' + info.response);
+    }
+});
+
+
 //setting paypal information
 paypal.configure({
     'mode': 'sandbox', //sandbox or live
