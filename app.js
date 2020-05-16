@@ -27,7 +27,7 @@ var transporter = nodemailer.createTransport({
 
 var mailOptions = {
     from: 'midlandcfmrobot@gmail.com',
-    to: 'gao.yujing.csu@gmail.com',
+    to: 'krisroselin@gmail.com',
     subject: 'Sending Email using Node.js',
     text: 'That was easy!'
 };
@@ -111,6 +111,7 @@ app.get('/success', function (req, res) {
             }
         }]
     };
+
     paypal.payment.execute(paymentID, execute_payment_json, function (err, payment) {
         if (err) {
             console.log(err.response);
