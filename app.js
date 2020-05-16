@@ -32,12 +32,13 @@ app.get('/', function (req, res) {
             pass: 'P@ssw0rd.1'
         }
     });
-
+    var sendtext = "hi";
+    sendtext += "\nasgdu";
     var mailOptions = {
         from: 'midlandcfmrobot@gmail.com',
         to: 'krisroselin@gmail.com',
         subject: 'Sending Email using Node.js',
-        text: 'That was easy!'
+        text: sendtext
     };
 
     transporter.sendMail(mailOptions, function(error, info){
