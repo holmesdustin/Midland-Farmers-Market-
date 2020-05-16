@@ -23,31 +23,6 @@ paypal.configure({
 
 // Root GET URL takes the configuration file and render the index.ejs file
 app.get('/', function (req, res) {
-    var nodemailer = require('nodemailer');
-
-    var transporter = nodemailer.createTransport({
-        service: 'gmail',
-        auth: {
-            user: 'midlandcfmrobot@gmail.com',
-            pass: 'P@ssw0rd.1'
-        }
-    });
-    var sendtext = "hi";
-    sendtext += "\nasgdu";
-    var mailOptions = {
-        from: 'midlandcfmrobot@gmail.com',
-        to: 'krisroselin@gmail.com',
-        subject: 'Sending Email using Node.js',
-        text: sendtext
-    };
-
-    transporter.sendMail(mailOptions, function(error, info){
-        if (error) {
-            console.log(error);
-        } else {
-            console.log('Email sent: ' + info.response);
-        }
-    });
     res.render('index', parseJson());
 });
 
